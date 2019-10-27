@@ -32,7 +32,7 @@
 - Linear(in:64, out:64)
   - Value Function: Linear(64, action size)
   - Advantage Function: Linear(64, 1)
-- Output = <value> + <advantage> - <the mean of advantage>
+- Output = (value) + (advantage) - (the mean of advantage)
 
 ## Plot of Rewards
 
