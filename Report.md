@@ -2,7 +2,17 @@
 
 ## Learning Algorithm
 
-#### hyperparameters 
+#### hyperparameters
+
+|  Name  |  Value  |　|
+| ---- | ---- | ---- |
+|BUFFER_SIZE | int(1e5)  | replay buffer size|
+|BATCH_SIZE | 64         | minibatch size|
+|GAMMA | 0.99            | discount factor|
+|TAU | 1e-3              | for soft update of target parameters|
+|LR | 5e-4               | learning rate |
+|UPDATE_EVERY | 4        | how often to update the network|
+
 
 ### The model architectures for neural networks.
 
@@ -14,13 +24,7 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 |  Model  |  The number of episode  |
 | ---- | ---- |
-|  Base  |  ```
-Episode 800	Average Score: 15.70
-Episode 900	Average Score: 15.29
-Episode 940	Average Score: 16.01
-Environment solved in 840 episodes!	Average Score: 16.01
-```
-|
+|  Base  |  About 15 |
 |  Dueling Q Network  |  TD  |
 |  Double DQN  |  TD  |
 |  Prioritized Experience Replay  |  TD  |
