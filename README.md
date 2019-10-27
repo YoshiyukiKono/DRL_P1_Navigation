@@ -1,4 +1,4 @@
-# DRL_P1_Navigation
+# Udacity Deep Reinforcement Learning - Project 1: Navigation
 
 ## Project Details
 
@@ -34,9 +34,10 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ## Getting Started
 
-### Requirement
+### Library Requirement
 https://github.com/udacity/deep-reinforcement-learning#dependencies
 
+### GPU Library
 https://pytorch.org/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=%2A%2ALP+-+TM+-+General+-+HV+-+JP&utm_adgroup=PyTorch+Version&utm_keyword=%2Bpytorch%20%2Bversion&utm_offering=AI&utm_Product=PyTorch&gclid=Cj0KCQjw84XtBRDWARIsAAU1aM2zq_aOaEVOMcbRXR5UUKbRyy6k2amUoQ7J8z88762R1Y5pxokc_RsaArgrEALw_wcB
 
 ``
@@ -44,6 +45,5 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ``
 ## Instructions
 
-
-
+Refer to Navigation.ipynb.
 
