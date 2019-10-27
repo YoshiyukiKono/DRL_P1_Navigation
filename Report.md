@@ -14,7 +14,20 @@
 |UPDATE_EVERY | 4        | how often to update the network|
 
 
-### The model architectures for neural networks.
+### The model architectures for neural networks
+
+#### Base
+- Linear(state_size, fc1_units)
+- Linear(fc1_units, fc2_units)
+- Linear(fc2_units, action_size)
+
+#### Dueling Q network
+
+- Linear(state_size, fc1_units)
+- Linear(fc1_units, fc2_units)
+  - Linear(fc2_units, action_size)
+  - Linear(fc2_units, 1)
+- Output = val + adv - adv.mean(1, keepdim=True).expand(-1, adv.size(1))
 
 ## Plot of Rewards
 
@@ -24,9 +37,9 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 |  Model  |  The number of episode  |
 | ---- | ---- |
-|  Base  |  About 15 |
-|  Dueling Q Network  |  TD  |
-|  Double DQN  |  TD  |
+|  Base  |  729|
+|  Dueling Q Network  |  794  |
+|  Double DQN  |  616  |
 |  Prioritized Experience Replay  |  TD  |
 
 ## Ideas for Future Work
