@@ -2,6 +2,11 @@
 
 ## Learning Algorithm
 
+- Deep Q-Network
+  - Dueling Network
+  - Double DQN
+  - Prioritized Experience Replay
+
 #### hyperparameters
 
 |  Name  |  Value  |　|
@@ -23,11 +28,11 @@
 
 #### Dueling Q network
 
-- Linear(state_size, fc1_units)
-- Linear(fc1_units, fc2_units)
-  - Linear(fc2_units, action_size)
-  - Linear(fc2_units, 1)
-- Output = val + adv - adv.mean(1, keepdim=True).expand(-1, adv.size(1))
+- Linear(in:state size, out:64)
+- Linear(in:64, out:64)
+  - Value Function: Linear(64, action size)
+  - Advantage Function: Linear(64, 1)
+- Output = <value> + <advantage> - <the mean of advantage>
 
 ## Plot of Rewards
 
@@ -44,5 +49,8 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 ## Ideas for Future Work
 
-The submission has concrete future ideas for improving the agent's performance.
+- Use different network patterns
+- Improve prioritized experience replay
+  - Use differenct constructions, e.g. the timing to update the memory, and how to update the memory
+- Try a different input, i.e. bitmap image
 
