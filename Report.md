@@ -52,5 +52,5 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 - Use different network patterns
 - Improve prioritized experience replay
   - Use differenct constructions, e.g. the timing to update the memory, and how to update the memory
-- Try a different input, i.e. bitmap image
+- Try a different input to the model (output from the game), i.e. bitmap image
 
