@@ -2,6 +2,12 @@
 
 ## Project Details
 
+This project is based on the section of the following github repository.
+
+https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation
+
+https://github.com/udacity/deep-reinforcement-learning
+
 ### Game
 - Navigate an agent in a square world.
 - The goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
