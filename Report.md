@@ -45,7 +45,7 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 |  Base  |  729|
 |  Dueling Q Network  |  794  |
 |  Double DQN  |  616  |
-|  Prioritized Experience Replay  |  TD  |
+|  Prioritized Experience Replay  |  659  |
 
 ## Ideas for Future Work
 
