@@ -14,7 +14,13 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 |  Model  |  The number of episode  |
 | ---- | ---- |
-|  Base  |  TD  |
+|  Base  |  ```
+Episode 800	Average Score: 15.70
+Episode 900	Average Score: 15.29
+Episode 940	Average Score: 16.01
+Environment solved in 840 episodes!	Average Score: 16.01
+```
+|
 |  Dueling Q Network  |  TD  |
 |  Double DQN  |  TD  |
 |  Prioritized Experience Replay  |  TD  |
