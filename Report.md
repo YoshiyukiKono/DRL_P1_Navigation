@@ -2,8 +2,6 @@
 
 ## Learning Algorithm
 
-### The learning algorithm
-
 #### hyperparameters 
 
 ### The model architectures for neural networks.
@@ -13,6 +11,13 @@
 A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. 
 
 ### The number of episodes needed to solve the environment.
+
+|  Model  |  The number of episode  |
+| ---- | ---- |
+|  Base  |  TD  |
+|  Dueling Q Network  |  TD  |
+|  Double DQN  |  TD  |
+|  Prioritized Experience Replay  |  TD  |
 
 ## Ideas for Future Work
 
